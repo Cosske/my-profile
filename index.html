@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil de Cosse</title>
+    <meta name="description" content="Profil étudiant de Cosse, réalisé en HTML et CSS.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="avatar" aria-hidden="true">C</div>
+      <nav aria-label="Navigation du profil">
+        <ul class="list-unstyled">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#studies">Parcours</a></li>
+          <li><a href="#interests">Intérêts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="page-content">
+      <div class="container">
+        <section class="card-white text-center" id="about">
+          <div class="profile-picture" role="img" aria-label="Initiale C">C</div>
+          <h1>Bonjour, moi c’est Cosse</h1>
+          <p class="lead">Étudiant curieux, intéressé par l’entreprise, le sport et le numérique.</p>
+          <a class="btn-blue" href="#contact">Me contacter</a>
+        </section>
+
+        <section class="card-white" id="studies">
+          <h2>Mon parcours</h2>
+          <p>J’apprends à transformer une idée en projet clair, utile et bien exécuté. Ce profil est mon premier site codé en HTML et CSS.</p>
+        </section>
+
+        <section class="card-white" id="interests">
+          <h2>Ce qui m’intéresse</h2>
+          <div class="tag-list">
+            <span class="tag">Entrepreneuriat</span>
+            <span class="tag">Rugby</span>
+            <span class="tag">Énergie</span>
+            <span class="tag">Technologie</span>
+          </div>
+        </section>
+
+        <section class="card-white" id="contact">
+          <h2>Contact</h2>
+          <p>Tu peux remplacer ce texte par les coordonnées que tu souhaites rendre publiques.</p>
+          <ul class="list-inline">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
