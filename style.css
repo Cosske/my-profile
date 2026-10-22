@@ -66,3 +66,15 @@ a:hover { color: var(--blue-dark); }
   .card-white { padding: 25px; }
   h1 { font-size: 30px; }
 }
+
+button { font: inherit; cursor: pointer; border: 0; }
+button:focus-visible, a:focus-visible { outline: 3px solid #d97706; outline-offset: 4px; }
+.interest-detail { margin-top: 26px; }
+.interest-detail h3 { margin-bottom: 6px; font-size: 20px; }
+.interest-detail p { margin-top: 0; }
+.profile-link { overflow-wrap: anywhere; }
+.copy-status { min-height: 1.6em; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+}
