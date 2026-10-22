@@ -27,7 +27,8 @@
       <div class="container">
         <section class="card-white text-center" id="about">
           <img class="profile-picture" src="images/profile.jpg" alt="Portrait de Cosse">
-          <h1>Bonjour, moi c’est Cosse</h1>
+          <h1 class="page-title">Bonjour, moi c’est Cosse</h1>
+          <button class="btn-blue shout-button" type="button">Dire bonjour</button>
           <p class="lead">Étudiant en M1 à HEC Paris, passionné par l’entrepreneuriat, l’énergie, le rugby et la technologie.</p>
           <a class="btn-blue" href="https://www.linkedin.com/in/cosse-appel-686ba7332/" target="_blank" rel="noopener noreferrer">Voir mon LinkedIn</a>
         </section>
@@ -45,11 +46,26 @@
             <span class="tag">Énergie</span>
             <span class="tag">Technologie</span>
           </div>
+          <section class="interest-detail">
+            <h3>Entrepreneuriat et projets</h3>
+            <p>L’entrepreneuriat m’intéresse pour le passage d’une idée à un projet concret. Avec StudySprint, mon projet pédagogique, j’explore une façon de rendre les révisions plus structurées.</p>
+          </section>
+          <section class="interest-detail">
+            <h3>Le rugby</h3>
+            <p>Le rugby fait partie de mes passions. J’aime sa dimension collective, où chaque rôle contribue à l’effort de l’équipe.</p>
+          </section>
+          <section class="interest-detail">
+            <h3>Énergie et technologie</h3>
+            <p>Je m’intéresse à l’énergie et à la technologie, ainsi qu’aux projets qui relient ces deux univers. Apprendre le développement web me permet de mieux comprendre comment construire des outils numériques.</p>
+          </section>
         </section>
 
         <section class="card-white" id="contact">
           <h2>Retrouve-moi en ligne</h2>
           <p>Pour découvrir mon parcours ou mes projets, consulte mes profils LinkedIn et GitHub.</p>
+          <p class="profile-link">Mon profil : <span class="email">https://cosske.github.io/my-profile/</span></p>
+          <button class="btn-blue copy-email" type="button">Copier mon profil</button>
+          <p class="copy-status" role="status" aria-live="polite"></p>
           <ul class="list-inline">
             <li><a href="https://www.linkedin.com/in/cosse-appel-686ba7332/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li><a href="https://github.com/Cosske" target="_blank" rel="noopener noreferrer">GitHub</a></li>
@@ -57,5 +73,6 @@
         </section>
       </div>
     </main>
+    <script src="behavior.js"></script>
   </body>
 </html>
